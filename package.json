@@ -1,0 +1,13 @@
+{
+  "name": "apex-caption-generator-api",
+  "version": "1.0.0",
+  "description": "Backend for CaptionAI Instagram caption generator",
+  "main": "api/generate-caption.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^2.6.0",
+    "stripe": "^14.18.0"
+  }
+}
